@@ -1,0 +1,15 @@
+/* footer styling with css */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #2993ff;
+    line-height: 2;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.8rem;
+    }
+}
