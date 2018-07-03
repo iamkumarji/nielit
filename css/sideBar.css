@@ -231,7 +231,7 @@ header {
     left: 0;
     height: 50px;
     width: 100%;
-    background: #f0efef;
+    background: #2a3441;
     z-index: 999;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
@@ -242,6 +242,7 @@ header {
     -webkit-transition-duration: 0.4s;
     -moz-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 header.menu-open {
@@ -270,7 +271,7 @@ header.menu-open {
 }
 
 #site-title a {
-    color: #1b1b1b;
+    color: #ffffff;
 }
 
 #site-title a:hover {
@@ -311,7 +312,7 @@ header.menu-open {
     height: 3px;
     width: 100%;
     margin-bottom: 4px;
-    background: #181818;
+    background: #ffffff;
     -moz-transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
     -webkit-transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
     -o-transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);

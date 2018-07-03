@@ -8,6 +8,40 @@
     <title>NIELIT PROJECT</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .form-input .container .row .form::before {
+            width: 150px;
+            height: 150px;
+            top: -30%;
+        }
+        
+        .registered-now h3::before {
+            width: 150px;
+        }
+        
+        @media (max-width: 900px) {
+            .form-input .container .row {
+                width: 100%;
+            }
+            .form-input .container .row .form {
+                width: 100%;
+            }
+            .form-input .container .row .form::before {
+                width: 80px;
+                height: 80px;
+                top: -12%;
+            }
+            .registered-now h3 {
+                font-size: 25px;
+                text-align: center;
+            }
+            .registered-now h3::before {
+                width: 200px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -94,38 +128,16 @@
     <section class="form-input">
         <div class="container">
             <div class="registered-now">
-                <h3>Registartions Form</h3>
+                <h3>Loin Now</h3>
             </div>
             <div class="row">
                 <div class="form">
                     <form action="#">
                         <div class="form-group">
-                            <input id="name" type="text" placeholder="first Name">
-                            <input id="name" type="text" placeholder="Last Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Father's Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Date Of Birth">
-                        </div>
-                        <div class="form-group">
                             <input type="email" placeholder="E-mail">
                         </div>
                         <div class="form-group">
-                            <input type="text" placeholder="Contact No.">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Full Address">
-                        </div>
-                        <div class="form-group">
-                            <label> &nbsp;&nbsp;&nbsp;Choose Your Course</label>
-                            <select name="" id="">
-                                <option value="O level">O LEVEL</option>
-                                <option value="A level">A LEVEL</option>
-                                <option value="B level">B LEVEL</option>
-                                <option value="C level">C LEVEL</option>
-                            </select>
+                            <input type="password" placeholder="password">
                         </div>
                         <button type="submit">Submit</button>
                     </form>
