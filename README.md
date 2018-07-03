@@ -1,4 +1,4 @@
-# Nielit Project :smile::smile:
+# Nielit Project :blush::blush:
 ### Static and Dynamic Pages for Nielit  Project. :thumbsup::thumbsup:
 
 * Go and clone it. 
