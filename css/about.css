@@ -195,4 +195,7 @@ span {
         margin: 30px 0;
         font-size: 14px;
     }
+    .about-heading-2 h3 {
+        margin-left: 0px !important;
+    }
 }
