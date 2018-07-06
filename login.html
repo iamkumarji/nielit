@@ -8,6 +8,40 @@
     <title>NIELIT PROJECT</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .form-input .container .row .form::before {
+            width: 150px;
+            height: 150px;
+            top: -30%;
+        }
+        
+        .registered-now h3::before {
+            width: 150px;
+        }
+        
+        @media (max-width: 900px) {
+            .form-input .container .row {
+                width: 100%;
+            }
+            .form-input .container .row .form {
+                width: 100%;
+            }
+            .form-input .container .row .form::before {
+                width: 80px;
+                height: 80px;
+                top: -12%;
+            }
+            .registered-now h3 {
+                font-size: 25px;
+                text-align: center;
+            }
+            .registered-now h3::before {
+                width: 200px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -91,92 +125,29 @@
     </section>
 
 
-    <section class="main-content">
-        <!-- website brand area  -->
-        <div class="brand-section">
-            <div class="overlay"></div>
-            <div class="brand-content">
-                <h1>National Institute of Electronics & Information Technology</h1>
-                <p>Ministry of Electronics & Information Technology</p>
-                <a href="#">login now</a>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- top newses for nielit  -->
-    <section class="top-news">
+    <section class="form-input">
         <div class="container">
-            <div class="row">
-                <div class="col-1">
-                    <h3>Academic News</h3>
-                    <p>Guidelines for establishment of Examination Centres for the conduct of the online exam.</p>
-                    <a href="#">view more</a>
-                </div>
-                <div class="col-2">
-                    <h3>NIELIT News</h3>
-                    <p> Inauguration of the five day training program on digital Marketing for ‘Warli’ Artists, M</p>
-                    <a href="#">view more</a>
-                </div>
-                <div class="col-3">
-                    <h3>NIELIT in Press</h3>
-                    <p> Var India : 24th September, 2015 HUDCO and NIELIT savour the Digitization Dream</p>
-                    <a href="#">view more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- start learning now  -->
-    <section class="start-learning">
-        <div class="shap"></div>
-        <div class="shap-2"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-learn-1">
-                    <h3>Join Our Courses</h3>
-                    <p>National Institute of Electronics & Information Technology (NIELIT),(erstwhile DOEACC Society), an Autonomous Scientific Society under the administrative control of Ministry of Electronics & Information Technology (MoE&IT).</p>
-                    <a href="#">Learn More..</a>
-                </div>
-                <div class="col-learn-2">
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- our courses for students  -->
-    <section class="our-courses">
-        <div class="container">
-            <div class="heading">
-                <h3>digital india</h3>
+            <div class="registered-now">
+                <h3>Loin Now</h3>
             </div>
             <div class="row">
-                <div class="cous-col-1">
-                    <i class="fas fa-laptop"></i>
-                    <p>E-Learning</p>
-                </div>
-                <div class="cous-col-2">
-                    <i class="fas fa-mobile-alt"></i>
-                    <p>Mobile Money</p>
-                </div>
-                <div class="cous-col-3">
-                    <i class="fas fa-address-card"></i>
-                    <p>E-Wallets</p>
-                </div>
-                <div class="cous-col-4">
-                    <i class="fas fa-university"></i>
-                    <p>E-Banking</p>
-                </div>
-                <div class="cous-col-5">
-                    <i class="fas fa-money-bill-alt"></i>
-                    <p>Chash Less</p>
+                <div class="form">
+                    <form action="index.html">
+                        <div class="form-group">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="password">
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+
+
+
 
     <footer class="footer">
         <p>All Rights Reserved to NIELIT.</p>
